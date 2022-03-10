@@ -10,7 +10,6 @@ namespace Zoo
             User user = new User();
             bool isTravel = true;
             
-
             while (isTravel)
             {
                 Console.WriteLine("Добро пожаловать в зоопарк");
@@ -279,7 +278,7 @@ namespace Zoo
 
         public void ShowInfo()
         {
-            Console.WriteLine($"Имя - {Name} | Пол - {Gender}");
+            Console.WriteLine($"Имя - {Name} | Пол - {Gender} | Цвет - {Сolor}");
         }
     }
 
